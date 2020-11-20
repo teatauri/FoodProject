@@ -3,7 +3,11 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.30611.23
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FoodProject", "FoodProject\FoodProject.csproj", "{FBB2DD6C-416C-43A7-8FBF-E7E6186702D9}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FoodProject", "FoodProject\FoodProject.csproj", "{FBB2DD6C-416C-43A7-8FBF-E7E6186702D9}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FoodProject.Core", "FoodProject.Core\FoodProject.Core.csproj", "{063CCBE8-6AA8-4D49-97B7-A2D48F03AF9A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FoodProject.Data", "FoodProject.Data\FoodProject.Data.csproj", "{FFC31D0F-CD92-4A26-B188-4FA1AEBAF603}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,6 +19,14 @@ Global
 		{FBB2DD6C-416C-43A7-8FBF-E7E6186702D9}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{FBB2DD6C-416C-43A7-8FBF-E7E6186702D9}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{FBB2DD6C-416C-43A7-8FBF-E7E6186702D9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{063CCBE8-6AA8-4D49-97B7-A2D48F03AF9A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{063CCBE8-6AA8-4D49-97B7-A2D48F03AF9A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{063CCBE8-6AA8-4D49-97B7-A2D48F03AF9A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{063CCBE8-6AA8-4D49-97B7-A2D48F03AF9A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FFC31D0F-CD92-4A26-B188-4FA1AEBAF603}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FFC31D0F-CD92-4A26-B188-4FA1AEBAF603}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FFC31D0F-CD92-4A26-B188-4FA1AEBAF603}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FFC31D0F-CD92-4A26-B188-4FA1AEBAF603}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
